@@ -28,29 +28,18 @@ header{
    .nav{
        position: relative;
        top:24%;
-        .nav-ul{
-            list-style: none;
-            li{
-                display: inline;
-                img{
-                    position: relative;
-                    top: 27px;
-                    height: 70px;
-                }
-                position: relative;
-                bottom: 50px;
-                padding-right: 7px;
+       width: 100%;
                 a{
-                    font-size: 14px;
+                    font-size: 20px;
                     height: 25px;
                     color: white;
-                    padding: 14px 16px;
+                    padding: 10px;
                     text-decoration: none;
                 }
-            }
+            
         }
    }
-}
+
 header:hover{
     transition: ease-in-out 0.5s;
     box-shadow: -1px 1px 5px 9px rgba(0,0,0,0.75);
@@ -59,13 +48,9 @@ header:hover{
 
 @media only screen and (max-width: 768px) {
     header{
-        margin-right: 0%;
-        margin-left:0%;
+        margin-right: 1%;
+        margin-left:1%;
         border: 2px outset #A49B29;
-        font-size: 7px;
     }
-    .nav-ul{
-        margin-top:5px;
-    }
-   
+  
   }
