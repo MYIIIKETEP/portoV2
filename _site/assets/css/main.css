@@ -54,9 +54,20 @@ body { background-image: url("../images/Space.jpg"); background-position: center
 
 .Main-Container .div-link1:hover { transform: rotate(3deg); border: 2px solid yellow; }
 
+.ctp { text-align: center; }
+
+.ctp ul { position: relative; top: 160px; list-style: none; float: right; right: 200px; }
+
+.ctp a { color: white; }
+
+.ctp img { position: relative; right: 150px; }
+
 @media only screen and (max-width: 768px) { body .Main-Container { top: 20px; margin-right: 4%; margin-left: 4%; }
   body .div-link1 p { position: relative; top: 50px; font-size: 16px; margin-right: 0%; }
-  body .div-link1 img { width: 35%; } }
+  body .div-link1 img { width: 35%; }
+  .ctp h1 { font-size: 20px; }
+  .ctp ul { left: 3px; }
+  .ctp img { position: relative; top: 150px; width: 35%; left: 15px; } }
 
 @keyframes floatingBkg { 25% { background-position: right; }
   50% { background-position: top; }

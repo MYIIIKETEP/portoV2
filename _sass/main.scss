@@ -60,7 +60,23 @@ body {
 
     }
 
-
+.ctp{
+  text-align: center;
+  ul{
+    position: relative;
+    top:160px;
+    list-style: none;
+    float:right;
+    right:200px;
+  }
+  a{
+    color:white;
+  }
+  img{
+    position: relative;
+    right: 150px;
+  }
+}
 
 
 
@@ -83,6 +99,21 @@ body {
         width:35%;
         
       }
+    }
+  }
+  .ctp {
+    h1{
+      font-size: 20px;
+
+    }
+    ul{
+      left:3px;
+    }
+    img{
+      position: relative;
+      top:150px;
+      width:35%;
+      left:15px;
     }
   }
 }
